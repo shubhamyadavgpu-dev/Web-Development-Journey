@@ -1,0 +1,16 @@
+h1,h2{
+    text-align: center;
+    border:2px solid green;
+    width:100%;
+    font-family: cursive;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+p{
+    font-weight: bold;
+    font-family:cursive ;
+}
+a{
+    text-decoration: wavy red overline;
+    border:2px solid green;
+}

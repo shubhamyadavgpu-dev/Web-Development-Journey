@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <style>
+       .c2 ,.c1{
+            background-color: rgb(255, 255, 255);
+            height:400px;
+            width:400px;
+            border-top:30px solid green;
+            border-right:30px solid rgb(237, 222, 15);
+            border-bottom:30px solid rgb(247, 81, 15);
+            border-left:30px solid rgb(8, 84, 248);
+            border-radius: 50%;
+            animation: myname 4s linear infinite;
+        }
+
+        @keyframes myname{
+            0%{transform: rotate(0deg);}
+              100%{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <h1>Loader</h1>
+    <div class="c1"></div>
+    <div class="c2"></div>
+</body>
+</html>

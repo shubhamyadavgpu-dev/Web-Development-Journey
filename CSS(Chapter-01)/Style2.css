@@ -1,0 +1,22 @@
+h1{
+    color: #ffa511;
+    text-decoration: rgb(0, 123, 255)double underline;
+   text-align: center;
+   font-family: cursive;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5px;
+  text-transform: capitalize;
+}
+p,h1{
+     color: #ffa511;
+    text-decoration: rgb(0, 123, 255)double underline;
+   text-align: center;
+   font-family: cursive;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5px;
+  text-transform: capitalize;
+}

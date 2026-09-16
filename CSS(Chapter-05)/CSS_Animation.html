@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+   <style>
+     .c1{
+        height:100px;
+        width:300px;
+        background-color: blue;
+
+        animation-name:Shubham;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out ;
+        animation-delay: 0;
+        animation-iteration-count: 3;
+        animation-direction: normal;
+     }
+     @keyframes Shubham {
+      0% {
+        width: 10px;
+        background-color: green;
+        height :20px;
+      }
+      50%{
+        width:50%;
+        background-color: rgb(255, 196, 0);
+        height:300px;
+        border-radius: 15px;  
+      }
+      100% { 
+        width:100%;
+        background-color: red;
+        height:500px;
+        border-radius: 30px; 
+      }
+     }
+     @media(min-width:400px){
+      h1{
+        background-color: blue;
+      }
+     }
+     @media(max-width:800px){
+      h1{
+        background-color: red;
+      }
+     }
+     @media(orientation : landscape){
+      h2{
+        background-color: yellow;
+      }
+     }
+   </style>
+</head>
+<body>
+    <h1>CSS Animation</h1>
+    <h2>Background Property</h2>
+    <div class="c1">This is a box</div>
+</body>
+</html>
