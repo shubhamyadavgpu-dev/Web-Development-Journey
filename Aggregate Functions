@@ -1,0 +1,15 @@
+Calculate maximum number of age 
+SELECT max(age) FROM data ; 
+
+Calculate minimum number of age 
+SELECT min(age) FROM data ; 
+
+Calculate the count when age equals to one 
+SELECT count(age) FROM data 
+ WHERE ( age = 1) ; 
+
+Calculate addition of age 
+SELECT sum(age) FROM data ; 
+
+Calculate average number of age 
+SELECT avg(age) FROM data ;
