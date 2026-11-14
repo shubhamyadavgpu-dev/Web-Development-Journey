@@ -1,0 +1,11 @@
+
+GROUP BBY CLAUSE :-
+ SELECT Col1 FROM table_name GROUP BY col_name ;
+
+HAVING CLAUSE :-
+ SELECT Col1 FROM table_name GROUP BY col_name HAVING condition ;
+
+UPDATES IN TABLES :-
+ UPDATE data SET Sr_no = 3  WHERE (age=11);  
+ SET SQL_SAFE_UPDATES = 0;
+ SELECT * FROM table_name ;
