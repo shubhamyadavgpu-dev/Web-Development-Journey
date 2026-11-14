@@ -1,0 +1,18 @@
+CREATE DATABASE Student ;
+USE Student ;
+
+CREATE TABLE data (
+ Sr_no INT,
+ age INT ,
+ name VARCHAR(15),
+ email VARCHAR(50) 
+ );
+ 
+INSERT INTO data VALUES 
+ (1 , 15 , "karan" , "abc@gmail.com"),
+ (2 , 25 , "Shubh" , "za@gmail.com"),
+ (3 , 11 , "hello" , "ass@gmail.com"),
+ (4 , 45 , "Mellon" , "ads@gmail.com"),
+ (5 , 11 , "Nikhil" , "aaa@gmail.com");
+ 
+SELECT * FROM data ; 
