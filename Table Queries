@@ -1,0 +1,17 @@
+                                                                                         ALTER (to change Schema)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ADD COLUMN :-
+ ALTER TABLE table_name 
+ ADD COLUMN column_name datatype constraints ;
+
+DROP COLUMN :-
+ ALTER TABLE table_name 
+ DROP COLUMN column_name ;
+
+RENAME TABLE :-
+ ALTER TABLE table_name 
+ RENAME TO new_table_name ;
+
+CHANGE COLUMNN :-
+ ALTER TABLE table_name
+ CHANGE COLUMN old_name new_name new_name_data_type ;
