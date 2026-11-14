@@ -1,0 +1,16 @@
+SELECT * FROM table_name ;
+
+SELECT col1 , col2 FROM table_name ;
+
+SELECT * FROM table_name WHERE (data condition value ) ;
+  E.G :- SELECT * data WHERE ( age < 18 ) ;
+
+LIMIT CLAUSE :-
+Sets an Upper Limit on Numbers of rows .
+SELECT * FROM data WHERE (age>5) LIMIT 3;
+
+
+ORDER BY CLAUSE :- 
+To sort in ascending order(ASC) OR descending order(DESC)
+SELECT * FROM data ORDER BY age ASC; 
+SELECT * FROM data ORDER BY age DESC; 
